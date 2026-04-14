@@ -74,6 +74,10 @@ p {
     align-items: start;
 }
 
+.info-section {
+    padding: 50px;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -97,4 +101,23 @@ p {
 .card p {
     text-align: center;
     width: 150px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 50px 300px;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+figcaption {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: right;
 }
