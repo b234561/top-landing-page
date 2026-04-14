@@ -5,12 +5,13 @@ body {
 
 .hero {
     background-color: #1f2937;
+    padding: 24px 200px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 24px 200px;
+    margin-bottom: 50px;
 }
 nav ul {
     list-style: none;
@@ -26,8 +27,42 @@ a {
     color: #e5e7eb;
 }
 
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.hero button {
+    background-color: #3882f6;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin: 8px 0;
+    border: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+}
+
+.hero-content {
+    display: flex;
+    padding: 24px 0;
+    gap: 50px;
+}
+
+.hero-column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
